@@ -48,6 +48,6 @@ func main() {
 	}
 
 	// output
-	s := base64.URLEncoding.EncodeToString(b)
+	s := base64.StdEncoding.EncodeToString(b)
 	fmt.Printf(`url("data:image/svg+xml;base64,%s")`, s)
 }
