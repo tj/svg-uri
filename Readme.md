@@ -9,6 +9,12 @@ Output a data uri, transparently compressing with svgo when installed. For those
 $ go get github.com/tj/svg-uri
 ```
 
+## Usage
+
+```
+$ paste | svg-uri | copy
+```
+
 ## Badges
 
 [![GoDoc](https://godoc.org/github.com/tj/svg-uri?status.svg)](https://godoc.org/github.com/tj/svg-uri)
